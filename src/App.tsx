@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import {NavBar} from './components/index';
+import {NavBar,Carousels} from './components/index';
 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <Corousel /> */}
+      <Carousels />
     </div>
   );
 }
