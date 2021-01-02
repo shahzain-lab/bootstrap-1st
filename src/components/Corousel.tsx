@@ -2,16 +2,19 @@ import React from 'react';
 //Carousel
 import Carousel from 'react-bootstrap/Carousel';
 //image
+import  background from '../image/background.png'
+import  background2 from '../image/background2.png'
+import  background3 from '../image/background3.png'
 
 
 export const Corousel =()=> {
   
     return (
-        <Carousel>
+        <Carousel className="h-25">
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
-            src="../image/background.png"
+            src={background}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -22,7 +25,7 @@ export const Corousel =()=> {
         <Carousel.Item interval={500}>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={background2}
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -33,7 +36,7 @@ export const Corousel =()=> {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={background3}
             alt="Third slide"
           />
           <Carousel.Caption>
