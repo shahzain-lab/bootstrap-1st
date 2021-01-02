@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { AlertDiv } from './components/Alert';
+import { NavBar } from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <AlertDiv />
+      <NavBar />
     </div>
   );
 }
